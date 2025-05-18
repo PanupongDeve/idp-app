@@ -7,18 +7,17 @@ spec:
   project: default
 
   source:
-    repoURL: git@github.com:panupongdeve/nonprod-k8s-config.git
+    repoURL: git@github.com:panupongdeve/idp-app.git
     targetRevision: main
     path: platform
     directory:
-      recursive: true
+      recurse: true
 
   destination:
     server: https://kubernetes.default.svc
   
   syncPolicy:
     automated:
-      enabled: true
       prune: true
       allowEmpty: true
       selfHeal: true
