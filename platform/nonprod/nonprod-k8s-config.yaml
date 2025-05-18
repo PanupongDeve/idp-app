@@ -8,7 +8,7 @@ spec:
 
   source:
     repoURL: git@github.com:panupongdeve/nonprod-k8s-config.git
-    targetRevision: develop
+    targetRevision: main
     path: dev/e-commerce/
 
   destination:
